@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
+  <link rel="stylesheet" href="styles.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,23 +17,36 @@
   </style>
 </head>
 <body>
+<main>
+  <div class="card">
+    <img src="images/illustration-hero.svg" id="hero" alt="">
 
-  Order Summary
+    <div class="card-contents">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <div id="summary">
+        <h1>Order Summary</h1>
 
-  Annual Plan
-  $59.99/year
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+      </div>
+      
+    <div id="plan-wrapper">
+      <div id="plan">
+      <img src="images/icon-music.svg" alt="">
 
-  Change
+        <p><span>Annual Plan</span></br>$59.99/year</p>
+      </div>
+      <div id="change"><a href="#">Change</a></div>
+      
+    </div>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#" target="blank">Your Name</a>.
+    <div id="payment"><a href="#">Proceed to Payment</a></div>
+    <div id="cancel"><a href="#">Cancel Order</a></div>
   </div>
+</main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="http://jacobkruse.com" target="blank">Jacob Kruse</a>.
+    </div>
 </body>
 </html>

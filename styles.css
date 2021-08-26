@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+body .card {
+  background-color: white;
+  border-radius: 20px;
+  width: 450px;
+  height: 700px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body .card #hero {
+  border-radius: 20px 20px 0 0;
+}
+
+body .card .card-contents {
+  margin: 30px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body .card .card-contents #summary h1, body .card .card-contents #summary p {
+  text-align: center;
+}
+
+body .card .card-contents #summary h1 {
+  font-size: 1.8rem;
+}
+
+body .card .card-contents #summary p {
+  color: #7280a7;
+}
+
+body .card .card-contents #plan-wrapper {
+  border-radius: 10px;
+  background-color: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 15px 20px;
+}
+
+body .card .card-contents #plan-wrapper #plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card .card-contents #plan-wrapper #plan p {
+  margin-left: 20px;
+}
+
+body .card .card-contents #plan-wrapper #plan span {
+  font-weight: 700;
+}
+
+body .card .card-contents #plan-wrapper #change {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .card .card-contents #plan-wrapper #change a {
+  text-align: center;
+}
+
+body .card .card-contents #payment {
+  background-color: #3829e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 35px;
+  border-radius: 10px;
+  height: 45px;
+}
+
+body .card .card-contents #payment a {
+  color: #f5f7ff;
+  text-decoration: none;
+  text-align: center;
+}
+
+body .card .card-contents #cancel {
+  margin: 30px 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .card .card-contents #cancel a {
+  color: #7280a7;
+  text-decoration: none;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
